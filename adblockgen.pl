@@ -28,13 +28,13 @@ if ( -f $blocked_hosts_path )
 	} 
 	else 
 	{
-		print "blocked host exists, skipping creation\n";
+		print "blocked host exists, skipping creation\nuse 'rebuild' if you want to allow it to be overwritten";
 		exit 0;
 	}
 }
 
 
-if (open(my $source_list_fh, '<', '/etc/block_source.list'))
+if (open(my $source_list_fh, '<', 'block_source.list'))
 {
 	while (my $line = <$source_list_fh>)
 	{

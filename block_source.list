@@ -19,3 +19,5 @@ http://v.firebog.net/hosts/Easylist.txt
 http://v.firebog.net/hosts/Easyprivacy.txt
 #GPLv3
 https://raw.githubusercontent.com/chadmayfield/pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
+#MIT
+https://raw.githubusercontent.com/techfunkadmin/adblock_list/master/blockthemall.list
